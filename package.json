@@ -1,10 +1,14 @@
 {
-  "name": "graphite",
-  "displayName": "graphite",
+  "name": "vscode-graphite-colors-theme",
+  "displayName": "graphite-colors",
   "description": "",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
+  },
+  "publisher": "blaccorek",
+  "repository": {
+    "url": "https://github.com/blaccorek/vscode-graphite-colors-theme"
   },
   "categories": [
     "Themes"
@@ -13,7 +17,7 @@
     "themes": [
       {
         "label": "graphite",
-        "uiTheme": "vs",
+        "uiTheme": "vs-dark",
         "path": "./themes/graphite-color-theme.json"
       }
     ]
