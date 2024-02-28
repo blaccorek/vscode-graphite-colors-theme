@@ -22,12 +22,15 @@
 		"sideBar.foreground": "#6C757D",
 		"sideBar.border": "#1C1C21",
 		"sideBar.dropBackground": "#495057",
+		//-- status bar
+		"statusBar.background": "#1C1C21",
+		"statusBarItem.remoteBackground": "#131316",
 		// List
 		"list.activeSelectionForeground": "#ffffff",
 		"list.activeSelectionBackground": "#18181C",
-		"list.inactiveSelectionBackground": "#343A40",
+		"list.inactiveSelectionBackground": "#ffffff11",
 		"list.hoverForeground": "#ffffff",
-		"list.hoverBackground": "#6C757D",
+		"list.hoverBackground": "#00000033",
 		"list.focusAndSelectionOutline": "#18181C",
 		// Tab
 		"editorGroupHeader.tabsBackground": "#131316",
@@ -36,7 +39,7 @@
 		"tab.inactiveBackground": "#131316",
 		"tab.hoverBackground": "#000000",
 		// Editor
-		"editor.background": "#DEE2E6",
+		"editor.background": "#F5F5F5",
 		"editor.foreground": "#495057",
 		"editorWidget.background": "#DEE2E6",
 		"editorGroup.emptyBackground": "#18181C",
@@ -44,9 +47,10 @@
 		"editor.lineHighlightBackground": "#CED4DA55",
 		"editor.selectionBackground": "#3fcc8550",
 		"editor.wordHighlightStrongBackground": "#6C757D50",
-		"editor.wordHighlightBackground": "#6C757D50",
+		"editor.wordHighlightBackground": "#11111111",
 		"editorLineNumber.activeForeground": "#000000",
 		"editor.findMatchBackground": "#3fcc8599",
+		"editor.findMatchHighlightBackground": "#536b7833",
 		// -- bracket
 		"editorBracketHighlight.foreground1": "#000000",
 		"editorBracketHighlight.foreground2": "#333333",
@@ -74,13 +78,22 @@
 		"settings.textInputForeground": "#000000",
 		"settings.dropdownForeground": "#000000",
 		"settings.modifiedItemIndicator": "#2D6A4F",
-		"settings.rowHoverBackground": "#CED4DA",
+		"settings.rowHoverBackground": "#00225511",
 		"settings.focusedRowBackground": "#DEE2E6",
 		"settings.focusedRowBorder": "#DEE2E6",
 		"input.background": "#495057",
 		"input.foreground": "#ffffff",
 		"input.placeholderForeground": "#ADB5BD",
-		"gitDecoration.modifiedResourceForeground": "#62929e"
+		"gitDecoration.modifiedResourceForeground": "#62929e",
+		//-- notifications
+		"notifications.background": "#1C1C21",
+		"notificationCenterHeader.background": "#131316",
+		"notifications.foreground": "#536b78",
+		//-- button
+		"button.background": "#536b78",
+		"button.secondaryBackground": "#1C1C21",
+		"textLink.foreground": "#62929e",
+		"editorInfo.foreground": "#62929e",
 	},
 	"tokenColors": [
 		{
@@ -487,7 +500,9 @@
 		},
 		{
 			"name": "Link Url",
-			"scope": "meta.link",
+			"scope": [
+				"meta.link",
+			],
 			"settings": {
 				"foreground": "#62929e"
 			}
