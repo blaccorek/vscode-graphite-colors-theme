@@ -24,6 +24,7 @@
 		"sideBar.dropBackground": "#495057",
 		//-- status bar
 		"statusBar.background": "#1C1C21",
+		"statusBar.noFolderBackground": "#1C1C21",
 		"statusBarItem.remoteBackground": "#131316",
 		// List
 		"list.activeSelectionForeground": "#ffffff",
@@ -51,6 +52,10 @@
 		"editorLineNumber.activeForeground": "#000000",
 		"editor.findMatchBackground": "#3fcc8599",
 		"editor.findMatchHighlightBackground": "#536b7833",
+		"editorIndentGuide.background1": "#99999922",
+		"editorIndentGuide.activeBackground1": "#00000033",
+		"peekViewEditor.background": "#ffffff",
+		"editorLink.activeForeground": "#43AA8B",
 		// -- bracket
 		"editorBracketHighlight.foreground1": "#000000",
 		"editorBracketHighlight.foreground2": "#333333",
@@ -93,6 +98,7 @@
 		"button.background": "#536b78",
 		"button.secondaryBackground": "#1C1C21",
 		"textLink.foreground": "#62929e",
+		"textLink.activeForeground": "#43AA8B",
 		"editorInfo.foreground": "#62929e",
 	},
 	"tokenColors": [
@@ -355,7 +361,7 @@
 				"string.unquoted.alias.graphql"
 			],
 			"settings": {
-				"foreground": "#df631c"
+				"foreground": "#335c81"
 			}
 		},
 		{

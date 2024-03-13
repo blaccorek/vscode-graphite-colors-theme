@@ -14,3 +14,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Match button color whith foreground text color
 - Apply theme to notifications
 - Improve list highlighting
+
+## [0.0.3]
+- Improve indent highlight
+- Use blue tone attributes in HTML
+- White background on peekview
