@@ -19,3 +19,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Improve indent highlight
 - Use blue tone attributes in HTML
 - White background on peekview
+
+## [0.0.4]
+- Improve gitlens blame visibility
+- Properly view dart closing component comments
