@@ -23,3 +23,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.4]
 - Improve gitlens blame visibility
 - Properly view dart closing component comments
+
+## [0.0.5]
+- Improve github colpilot contrast
+- Change colors to better fit name
